@@ -1,0 +1,58 @@
+
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+
+    <!-- Script for Netlify Identity -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer>
+        if (window.netlifyIdentity) {
+            window
+                .netlifyIdentity
+                .on('init', (user) => {
+                    if (!user) {
+                        window
+                            .netlifyIdentity
+                            .on('login', () => {
+                                document.location.href = '/admin/';
+                            });
+                    }
+                });
+        }
+    </script>
+{% endblock %}
+
+{% block body %}
+
+
+<div class="content headerContent">
+    <h1>Top Quality Tile for any budget</h1>
+    <div>
+       Blossom Tile is Locally owned and operated in  {{ client.address.city }}, {{ client.address.state }}. {{ client.name }} promises the best quality tile, service, and experience. Check us out and see why we are the best choice for  {{ client.offer}} in {{ client.address.city }}, {{ client.address.state }}.
+        <DIV><a class="button buttonPrimary" href="">See our menu</a>
+        <a class="button buttonSecondary" href="">Order Now</a></DIV>
+    </div>
+    </div>
+
+
+    
+
+<div class="sectionTwo">
+
+    <div class="sectionContent">
+        <h1>Our Promise</h1>
+        <span class="flourish"></span>
+        <img class="imageHomeOne" src="/assets/images/home1.jpg">
+       
+        <div class="left">
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        </div>
+       
+            </div>
+</div>
+
+
+
+
+{% endblock %}

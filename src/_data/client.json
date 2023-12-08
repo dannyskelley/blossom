@@ -1,16 +1,17 @@
 {
-	"name": "Design Gandalf",
-	"description": "test",
-	"email": "designgandalf@gmail.com",
-	"phoneForTel": "313-801-47388",
-	"phoneFormatted": "(313) 801-7388",
+	"name": "Blossom Tile",
+	"description": "Michigan Tile Experts",
+	"offer": "tile",
+	"email": "gater1@frontiernet.net",
+	"phoneForTel": "517-812-5438",
+	"phoneFormatted": "(517) 812-5438",
 	"address": {
 		"lineOne": "First Address Line",
 		"lineTwo": "Second Address Line",
-		"city": "Detroit",
+		"city": "Jackson County",
 		"state": "MI",
-		"zip": "48220",
+		"zip": "49203",
 		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
 	},
-	"domain": "www.designgandalf.com"
+	"domain": "www.blossomtile.com"
 }
