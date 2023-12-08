@@ -45,9 +45,9 @@
     body {
         font-family: "Poppins", Arial, sans-serif; padding:0px; margin: 0px;
     }
-    .button {color:white;margin:40px 10px 0px 0px;border-radius: 999px;outline-width: 2px; outline-style: solid;  text-decoration: none; padding: 10px 20px; display: inline-block; color: var(--textOnPrimary-color);}
-.buttonPrimary {background-color: var( --primary-color); outline-color:var(--primary-color);}
-    .buttonSecondary {color:white; outline-color: white;}
+    .button {color:white;margin:40px 10px 0px 0px;border-radius: 999px;border-width: 2px; border-style: solid;  text-decoration: none; padding: 10px 20px; display: inline-block; color: var(--textOnPrimary-color);}
+.buttonPrimary {background-color: var( --primary-color); border-color:var(--primary-color);}
+    .buttonSecondary {color:white; border-color: white;} 
     .active {color:red}
 
 * {transition: all ease .1s;}
