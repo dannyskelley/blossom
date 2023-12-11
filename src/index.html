@@ -28,6 +28,15 @@ eleventyNavigation:
         <!-- Fallback Image -->
         <img class="imageOne" aria-hidden="true" decoding="async" src="/assets/images/home_1.jpg" alt="Beautiful Ceramic Tile Kitchen Backsplash in Jackson County Michigan" width="500" height="500">
     </picture>
+    <picture class="homePic">
+        <!-- Mobile Image -->
+        <source media="(max-width: 600px)" srcset="/assets/images/home2.webp">
+        <!-- Desktop Image -->
+        <source media="(min-width: 601px)" srcset="/assets/images/home2.webp">
+        <!-- Fallback Image -->
+        <img class="imageTwo" aria-hidden="true" decoding="async" src="/assets/images/home_2.jpg" alt="Expert Tile installer in Jackson County Michigan, Paul Blossom" width="300" height="300">
+    <div class="ownerTitle">Paul Blossom, Owner</span>
+    </picture>
     <h2>Licensed & Insured</h2>
     <div>
         Blossom Tile is Locally owned and operated in  {{ client.address.city }}, {{ client.address.state }}.  We promise the best quality tile, service, and experience. Contact us and see why we are the best choice for  {{ client.offer}} in {{ client.address.city }}, {{ client.address.state }}.
