@@ -250,7 +250,7 @@ header {padding:0px 10px; background-color: white; min-height: 50px;}
 .flourish { margin-bottom:50px;background-color: var(--primary-color); width: 100px; height: 9px; display: block; border-radius: 999px 0px 999px 0px;}
 img {max-width: 100%;}
 
-@media (min-width: 800px) {
+@media (min-width: 780px) {
     .imageOne {position: absolute; margin:0px; left: 0px; right: 0px; width: 100%; height: 100%; top:0px; z-index: -1; opacity: .10;}
     .email {margin-top:80px; }
     .hamburger {display: inline-block;}
