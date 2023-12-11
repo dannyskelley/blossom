@@ -20,6 +20,14 @@ eleventyNavigation:
 <div class="content headerContent">
 
     <h1>Tile expert with 30 years of experience</h1>
+    <picture>
+        <!-- Mobile Image -->
+        <source media="(max-width: 600px)" srcset="/assets/images/home-m.webp">
+        <!-- Desktop Image -->
+        <source media="(min-width: 601px)" srcset="/assets/images/home.webp">
+        <!-- Fallback Image -->
+        <img class="imageOne" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home_1.jpg" alt="Beautiful Ceramic Tile Kitchen Backsplash in Jackson County Michigan" width="500" height="500">
+    </picture>
     <h2>Licensed & Insured</h2>
     <div>
         Blossom Tile is Locally owned and operated in  {{ client.address.city }}, {{ client.address.state }}.  We promise the best quality tile, service, and experience. Contact us and see why we are the best choice for  {{ client.offer}} in {{ client.address.city }}, {{ client.address.state }}.
@@ -35,14 +43,7 @@ eleventyNavigation:
 
               </div>
 
-              <picture>
-                <!-- Mobile Image -->
-                <source media="(max-width: 600px)" srcset="/assets/images/home-m.webp">
-                <!-- Desktop Image -->
-                <source media="(min-width: 601px)" srcset="/assets/images/home.webp">
-                <!-- Fallback Image -->
-                <img class="imageOne" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home_1.jpg" alt="Beautiful Ceramic Tile Kitchen Backsplash in Jackson County Michigan" width="500" height="500">
-            </picture>
+            
     </div>
     </div>
 
