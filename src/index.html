@@ -1,6 +1,6 @@
 ---
 title: 'Blossom Tile'
-description: 'Michigan Tile Experts with Over 30 Years'
+description: 'Jackson County Michigan Tile Experts'
 permalink: '/'
 eleventyNavigation:
   key: Home
@@ -11,23 +11,7 @@ eleventyNavigation:
 
 {% block head %}
 
-    <!-- Script for Netlify Identity -->
-    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script defer>
-        if (window.netlifyIdentity) {
-            window
-                .netlifyIdentity
-                .on('init', (user) => {
-                    if (!user) {
-                        window
-                            .netlifyIdentity
-                            .on('login', () => {
-                                document.location.href = '/admin/';
-                            });
-                    }
-                });
-        }
-    </script>
+   
 {% endblock %}
 
 {% block body %}
