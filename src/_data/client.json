@@ -1,6 +1,6 @@
 {
 	"name": "Blossom Tile",
-	"description": "Michigan Tile Experts",
+	"description": "Jackson Michigan Tile Experts",
 	"offer": "tile",
 	"email": "gater1@frontiernet.net",
 	"phoneForTel": "517-812-5438",
@@ -8,7 +8,7 @@
 	"address": {
 		"lineOne": "First Address Line",
 		"lineTwo": "Second Address Line",
-		"city": "Jackson County",
+		"city": "Jackson",
 		"state": "MI",
 		"zip": "49203",
 		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
