@@ -253,9 +253,9 @@ header {padding:0px 10px; background-color: white; min-height: 50px;}
 img {max-width: 100%;}
 
 .servicesContainer { font-size: 20px; background-color: var(--background-color); color:var(--textOnBackground-color)}
-.servicesContainer div {max-width: 600px; margin:-50px auto 0px; background-color: white;padding:30px; }
+.servicesContainer div {max-width: 900px; margin:-50px auto 0px; background-color: white;padding:30px; }
 .servicesTwo {font-size: 20px;background-color:rgba(0,0,0,.3); color:white; line-height: 36px; padding: 30px;}
-.servicesTwo div {max-width: 1800px; margin: auto; }
+.servicesTwo div {max-width: 100%; margin: auto; }
 .servicesContainer ul  {list-style: none;}
 .servicesTwo ul {list-style: none; margin: 0px; padding: 0px; line-height: 28px;}
 .servicesTwo li {background-color: var(--background-color); color:var(--textOnBackground-color); display: inline-block; border-radius: 9px; margin:0px 0px 20px 0px; padding: 20px;}
@@ -273,7 +273,11 @@ img {max-width: 100%;}
 }
 
 .servicesTwo {padding: 30px;}
+.imageWork,  .imageWorkTwo {margin-bottom: 30px; max-height: 400px;}
+
 @media (min-width: 750px) {
+    .imageWorkTwo {margin: -100px 0px 30px 0px;float: right; border-radius: 999px; border:10px solid white;}
+    .imageWork {float: right;}
     .homeBg {  position: absolute;
         top: 0;
         left: 0;
