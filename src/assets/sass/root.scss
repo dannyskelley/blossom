@@ -252,6 +252,27 @@ header {padding:0px 10px; background-color: white; min-height: 50px;}
 .flourish { margin-bottom:50px;background-color: var(--primary-color); width: 100px; height: 9px; display: block; border-radius: 999px 0px 999px 0px;}
 img {max-width: 100%;}
 
+.servicesContainer { font-size: 20px; background-color: var(--background-color); color:var(--textOnBackground-color)}
+.servicesContainer div {max-width: 600px; margin:-50px auto 0px; background-color: white;padding:30px; }
+.servicesTwo {font-size: 20px;background-color:rgba(0,0,0,.3); color:white; line-height: 36px; padding: 30px;}
+.servicesTwo div {max-width: 1800px; margin: auto; }
+.servicesContainer ul  {list-style: none;}
+.servicesTwo ul {list-style: none; margin: 0px; padding: 0px; line-height: 28px;}
+.servicesTwo li {background-color: var(--background-color); color:var(--textOnBackground-color); display: inline-block; border-radius: 9px; margin:0px 0px 20px 0px; padding: 20px;}
+.servicesContainer li {margin-bottom: 30px; position: relative;}
+
+.servicesContainer li::before {
+ 	content: '';
+	position: absolute;
+	left: -30px;
+	top: 6px;
+	width: 1em;
+	height: 1em;
+	background-repeat: no-repeat;
+	background-image: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='check-circle' style='filter: invert(54%) sepia(75%) saturate(416%) hue-rotate(59deg) brightness(91%) contrast(89%);' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='%2315aabf' d='M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z'></path></svg>");
+}
+
+.servicesTwo {padding: 30px;}
 @media (min-width: 750px) {
     .homeBg {  position: absolute;
         top: 0;
@@ -259,8 +280,9 @@ img {max-width: 100%;}
         width: 100%;
         height: 100%;
         z-index: -2;
+        position: fixed;
     }
-    .imageOne {position: absolute; object-fit: cover; margin:0px; left: 0px; right: 0px; width: 100%; height: 100%; top:0px; z-index: -1; opacity: .10;}
+    .imageOne {position: absolute; object-fit: cover; margin:0px; left: 0px; right: 0px; width: 100%; height: 100%; top:0px; z-index: -1; opacity: .20;}
  .imageTwo {position: relative; right:0px; top:0px;}  
     .email {margin-top:80px; }
     .hamburger {display: inline-block;}
@@ -287,5 +309,7 @@ img {max-width: 100%;}
         order: 2}
 
         .imageHomeOne {max-width: 100px;}
+        .servicesContainer div, .servicesTwo div {padding: 100px;}
+        .servicesTwo li {margin:0px 30px 30px 0px; padding: 10px 20px;}
   
 }
