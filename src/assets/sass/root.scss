@@ -260,6 +260,7 @@ img {max-width: 100%;}
 .servicesTwo ul {list-style: none; margin: 0px; padding: 0px; line-height: 28px;}
 .servicesTwo li {background-color: var(--background-color); color:var(--textOnBackground-color); display: inline-block; border-radius: 9px; margin:0px 0px 20px 0px; padding: 20px;}
 .servicesContainer li {margin-bottom: 30px; position: relative;}
+.servicesTwo li {position: relative;}
 
 .servicesContainer li::before {
  	content: '';
@@ -315,6 +316,6 @@ h4 {margin: 0px;;}
 
         .imageHomeOne {max-width: 100px;}
         .servicesContainer div, .servicesTwo div {padding: 100px;}
-        .servicesTwo li {margin:0px 30px 30px 0px; padding: 10px 20px;}
+        .servicesTwo li {margin:0px 20px 20px 0px; padding: 10px 20px;}
   
 }
