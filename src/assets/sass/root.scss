@@ -274,11 +274,12 @@ img {max-width: 100%;}
 }
 h4 {margin: 0px;;}
 .servicesTwo {padding: 30px;}
-.imageWork,  .imageWorkTwo {margin-bottom: 30px; max-height: 400px;}
+.imageWorkTwo {border-radius: 999px; border:10px solid white; margin: auto; max-height: 300px; max-width: 300px;}
+.imageWork,  .imageWorkTwo {margin-bottom: 30px;}
 
 @media (min-width: 750px) {
     footer .button {margin:30px auto 0px; max-width: 300px; display: block;}
-    .imageWorkTwo {margin: -100px 0px 30px 0px;float: right; border-radius: 999px; border:10px solid white;}
+    .imageWorkTwo {margin: -100px 0px 30px 0px;float: right; max-height: 500px; max-width: 500px;}
     .imageWork {float: right; margin-left:100px;}
     .homeBg {  position: absolute;
         top: 0;
