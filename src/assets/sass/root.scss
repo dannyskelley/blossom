@@ -277,7 +277,35 @@ h4 {margin: 0px;;}
 .imageWorkTwo {border-radius: 999px; border:10px solid white; margin: auto; max-height: 300px; max-width: 300px;}
 .imageWork,  .imageWorkTwo {margin-bottom: 30px;}
 
+.testimonials  {padding: 30px;}
+.testimonials > div {max-width: 1200px ; margin: auto;}
+.testimonials ul {list-style: none; padding: 0px; margin:30px  auto;}
+.testimonials li {margin-bottom:50px;}
+.rating {display: block;
+    height: 20px;
+    margin: 0.75rem auto;
+    width: 100px;
+  }
+  
+  use {
+    &:nth-child(2) {
+      transform: translate(20px);
+    }
+    &:nth-child(3) {
+      transform: translate(40px);
+    }
+    &:nth-child(4) {
+      transform: translate(60px);
+    }
+    &:nth-child(5) {
+      transform: translate(80px);
+    }
+  }
+  
+  
+
 @media (min-width: 750px) {
+    .testimonials {padding: 150px 30px; text-align: center;}
     footer .button {margin:30px auto 0px; max-width: 300px; display: block;}
     .imageWorkTwo {margin: -100px 0px 30px 0px;float: right; max-height: 300px; max-width: 300px;}
 
@@ -323,5 +351,6 @@ h4 {margin: 0px;;}
 
 
 @media (min-width: 950px) {
+    .testimonials li {display: inline-block; max-width: 25%; margin:0px 25px; vertical-align: top;}
 .imageWork {float: right; margin-left:100px;}
 }
